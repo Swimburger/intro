@@ -1,4 +1,4 @@
-module github.com/swimburger/intro/packages/go
+module github.com/Swimburger/intro/packages/go
 
 go 1.21
 
