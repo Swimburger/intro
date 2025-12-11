@@ -1,0 +1,38 @@
+{
+  "name": "swimburger",
+  "version": "1.0.0",
+  "description": "Personal intro card for Swimburger",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "swimburger": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "card",
+    "business-card",
+    "cli",
+    "intro"
+  ],
+  "author": "Swimburger",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swimburger/intro.git",
+    "directory": "packages/npx"
+  },
+  "homepage": "https://github.com/swimburger/intro",
+  "bugs": {
+    "url": "https://github.com/swimburger/intro/issues"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "boxen": "^7.1.1",
+    "yaml": "^2.3.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

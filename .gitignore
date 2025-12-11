@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# .NET
+bin/
+obj/
+*.nupkg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+go.sum
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
